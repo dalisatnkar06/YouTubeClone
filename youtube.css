@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.header {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    position: sticky;
+}
+
+#head {
+    background-color: white;
+    width: 1900px;
+    height: 70px;
+    display: flex;
+}
+
+#head,
+.inside_head,
+.logoimg,
+img {
+    height: 30px;
+    width: 100px;
+    display: inline-flex;
+}
+
+.inside_head,
+.logoimg,
+img {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.inside_head i {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.inside_head i img {
+    padding: 20px;
+}
+
+.icnos i {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(224, 213, 213);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+.icnostwo {
+    margin-top: 20px;
+    margin-left: 380px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icnosthree {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(224, 213, 213);
+    width: 550px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.search-input {
+    width: 600px;
+    font-size: 1rem;
+    border-color: gray;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #0f1111;
+}
+
+input {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.profile {
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.profile img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 70px;
+    margin-left: 10px;
+    width: 250px;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: none;
+}
+
+.main {
+    margin-left: 260px;
+    margin-top: 45px;
+}
+
+.sidebar_body {
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.sidebar_body p {
+    height: 27px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.sidebar,
+.sidebar_body ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.sidebar_body ul li i {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.Subscriptions_one img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.Subscriptions_one,
+img,
+p {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.Subscriptions_one p {
+    align-items: center;
+}
+
+.Subscriptions {
+    border-bottom: 1px solid gray;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.explore_body ul li {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+.explore_body {
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.more_body {
+    font-size: 20px;
+    margin-left: 25px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.more_body ul li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin-left: 25px;
+}
+
+.second_body {
+    margin-top: 45px;
+    margin-left: 260px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.second_body p {
+    height: 27px;
+    border-radius: 5px;
+    background-color: rgb(224, 213, 213);
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.sidebar {
+    margin: top;
+}
+
+.videos {
+    display: grid;
+    height: 800px;
+    width: 1400px;
+    grid-template-columns: 420px 420px 420px;
+    grid-template-rows: 400px 400px 400px;
+    row-gap: 10px;
+    column-gap: 20px;
+    margin-left: 260px;
+    margin-top: -35rem;
+    overflow-y: scroll;
+}
+
+.video_one {
+    height: 250px;
+    width: 420px;
+    border-radius: 25px;
+    border: 2px solid black;
+    border: none;
+}
+
+.videos,
+.video_one,
+iframe {
+    border-radius: 25px;
+}
+
+.pro_img img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.pro_img,
+img,
+h3 {
+    display: inline;
+}
